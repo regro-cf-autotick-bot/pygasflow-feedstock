@@ -1,5 +1,5 @@
 {% set name = "pygasflow" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygasflow-{{ version }}.tar.gz
-  sha256: 28738b8fb69c499c3c76129fd66f743c18055cab788d84f87a8fde79ff6b10f4
+  sha256: 638fda7d1a54c469febadb76c3a8cad8a8179cdab320059f1a637277f7a76ce6
 
 build:
   noarch: python
