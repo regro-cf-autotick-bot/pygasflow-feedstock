@@ -25,6 +25,9 @@ requirements:
     - scipy
     - matplotlib-base
     - pandas
+    - param
+    - panel
+    - colorcet
 
 test:
   imports:
